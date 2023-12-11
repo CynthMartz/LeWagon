@@ -98,3 +98,18 @@ div {
 #introduction p {
     margin-bottom: 40px;
 }
+
+/*Responsive Tablet*/
+@media (max-width: 768px){
+    .container{
+        width: 500px;
+    }
+}
+
+
+/*Responsive Celular*/
+@media (max-width: 576px){
+    .container{
+        width: 300px;
+    }
+}
