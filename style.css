@@ -1,56 +1,46 @@
-body{
+body {
     background-color: #f6f9fc;
-    color:#677684;
+    color: #677684;
     font-family: 'Lora', serif;
     font-size: 18px;
 }
-
-h1, h2, a{
+h1,h2,a {
     font-family: 'Roboto', sans-serif;
-
 }
-
-h1{
-    color: #03256C;
+h1 {
+    color: #9966ff;
     font-size: 32px;
     font-weight: 900;
     letter-spacing: 2px;
 }
 
-h2{
+h2 {
     font-size: 24px;
     color: #9966ff;
-    
     font-weight: 300;
 }
 
 a{
     text-decoration: none;
-    color: #9b70f2;
-    font-weight: 900;
-    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
 }
-
 a:hover {
     color: #40F99B;
 
 }
-
-div{
+div {
     background: white;
     padding: 50px;
     margin: 50px;
     box-shadow: 4px 4px 30px rgba(0, 0, 0, 10%);
     border-radius: 5px;
 }
-
-
-.container{
+.container {
     width: 700px;
     margin: 10px auto;
 }
-
-.card-white{
+.card-white {
     background: white;
     padding: 40px;
     box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
@@ -58,28 +48,39 @@ div{
     margin: 20px 0px;
     text-align: center;
 }
-
-
-
-.img-circle{
+.img-circle {
     border-radius: 50%;
     width: 150px;
 }
 
 .btn-purple {
-    background-color: #9b70f2;
-    color: white;
     padding: 10px 20px;
     border-radius: 4px;
-}                                                     
-/*
-.btn-purple:hover {
-    background-color: black;
-    color: white;
+    cursor: pointer;
+    border: 0;
+    background-color: #9b70f2;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    transition: all 0.5s ease;
 }
-*/
-
-.list-inline{
+.btn-purple:hover {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+}
+.btn-purple:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+.list-inline {
     list-style: none;
     padding-left: 0;
 }
@@ -87,17 +88,13 @@ div{
     display: inline;
     padding: 10px;
 }
-
 .list-inline i {
     font-size: 50px;
     color: rgb(230, 230, 230);
 }
-
 .list-inline i:hover {
-    color: black;   
+    color: black;
 }
-
 #introduction p {
     margin-bottom: 40px;
 }
-
